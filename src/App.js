@@ -1,10 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
-
+const image = require("./wallpaper/shadow.jpeg");
 function App() {
   return (
-    <div className='font-4xl flex justify-center items-center w-full h-screen'>
-      WallRater
+    <div className='w-full h-screen'>
+      <img src={image} className="h-full w-full bg-cover"></img>
     </div>
   );
 }
