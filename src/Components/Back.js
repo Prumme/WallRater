@@ -1,5 +1,5 @@
 function Back(props) {
-    const className = "h-screen w-screen -z-2 absolute top-0 bg-[" + props.background_color + "]"
+    const className = "h-screen w-screen -z-2 top-0 absolute opacity-50 bg-[" + props.background_color + "]"
     console.log(className)
     return (
         <div className={className}>

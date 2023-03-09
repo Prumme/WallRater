@@ -5,7 +5,7 @@ import Download from "./Components/Download";
 import Back from "./Components/Back"
 import { ColorExtractor } from "react-color-extractor";
 
-const image = require("./wallpaper/Evelynn.png");
+const image = require("./wallpaper/shadow.jpeg");
 
 class App extends Component {
 
