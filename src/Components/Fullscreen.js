@@ -4,7 +4,7 @@ function Fullscreen() {
 
 
     return (
-        <div onClick={() => openFullscreen()} className='absolute bottom-4 right-4 bg-black opacity-50 cursor-pointer rounded-full p-2 hover:scale-105 transition ease-in'>
+        <div onClick={() => openFullscreen()} className='z-2 absolute bottom-4 right-4 bg-black opacity-50 cursor-pointer rounded-full p-2 hover:scale-105 transition ease-in'>
             <ArrowsPointingOutIcon className="h-8 w-8 text-white hover:scale-105 transition ease-in"></ArrowsPointingOutIcon>
         </div>
     );
